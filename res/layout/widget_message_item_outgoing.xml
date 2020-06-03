@@ -63,8 +63,7 @@
         android:layout_gravity="top"
         android:orientation="vertical"
         style="@style/WidgetConversationItemBodyOutgoing"
-        android:background="@drawable/widget_msg_bubble_outgoing_new"
-        android:paddingRight="8px"
+        android:background="@drawable/widget_msg_bubble_outgoing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
 
@@ -112,7 +111,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:visibility="gone"
-                android:src="@drawable/ic_preview_play"
+                android:src="@drawable/ic_video_play_light"
                 android:importantForAccessibility="no"
                 android:contentDescription="@null"/>
         </FrameLayout>
